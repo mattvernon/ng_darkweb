@@ -1,0 +1,248 @@
+/*------------------- Base Styles -------------------- */
+
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-color: #ffffff;
+	overflow-x: hidden;
+	height: 100%;
+}
+body {
+	margin: 0px 0px;
+	overflow-x: hidden;
+	text-align: center !important;
+	font-family: sans-serif;
+	font-weight: 100;
+	width: 100%;
+}
+#hero {
+	background-image: url('http://res.cloudinary.com/dwdzmuw4g/image/upload/v1484746350/background_gtp4ot.png');
+	background-size: cover;
+	position: relative;
+	background-position: 50% 30%;
+	height: 102vh;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	top: 20%;
+}
+
+.hero-content {
+	margin-top: 5%;
+}
+.header {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-top: -30px;
+}
+.sixoff {
+	max-width: 100%;
+	width: 18%;
+	padding: 1%;
+	margin: 3% 0 -20px;
+}
+.neue-logos {
+	display: inline-block;
+	justify-content: center;
+	padding: 0px;
+	margin: 120px 0 0 0;
+	max-width: 100%;
+	width: 40%;
+	position: relative;
+}
+.arrows {
+	justify-content: center;
+	max-width: 100%;
+	width: 3%;
+	padding: 1%;
+	margin: 3%;
+}
+.sales {
+	max-width: 100%;
+	width: 15%;
+	padding: 1px;
+	margin: -100px 0 10px 0;
+}
+#wrap {
+	max-width: 100%;
+	width: 960px;
+	margin: 20px auto;
+	display: inline-flex;
+}
+
+}
+.left_col {
+	float: none;
+	max-width: 100%;
+	height: auto;
+	float: left;
+}
+
+}
+.right_col {
+	float: none;
+	max-width: 100%;
+	height: auto;
+	float: right;
+}
+.sans, .geo {
+	max-width: 100%;
+	width: 85%;
+}
+.sell_low {
+	margin:90px 0 75px 0;
+	max-width: 100%;
+	width:50%;
+}
+.description {
+	margin: 10px 0 50px 0;
+	font-family: sans-serif;
+	font-weight: 700;
+}
+.button {
+	background-color:#0000FF;
+	border:5px solid #0000FF;
+	display:inline-block;
+	cursor:pointer;
+	padding:10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #0f3fff;
+	margin: 0px 0 20px 0;
+	color:#ffffff;
+	font-family: sans-serif;
+	font-weight: 700;
+	font-size: 1rem;
+	font-kerning: 20rem;
+	max-width: 100%;
+	width: 50%;
+	transition: 0.5s;
+}
+
+.button:hover {
+		background-color: black;
+		border: 5px solid black;
+}
+
+#footer {
+	text-decoration: none;
+	margin-bottom: 80px;
+}
+.main-footer, a:link, a:visited {
+	padding: 20px 0 20px 0;
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: 700;
+}
+
+/*************** MEDIA QURIES ***************/
+@media screen and (max-width: 667px) {
+	body {
+		margin: 0px 0px;
+		overflow-x: hidden;
+		text-align: center !important;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 100;
+		width: 100%;
+	}
+	#hero {
+		background-image: url('http://res.cloudinary.com/dwdzmuw4g/image/upload/v1484746350/background_gtp4ot.png');
+		background-size: cover;
+		position: relative;
+		background-position: 45% 30%;
+		height: 102vh;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+		top: 20%;
+	}
+	.header {
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		margin-top: -30px;
+	}
+	.sixoff {
+		width: 35%;
+		margin: 60px 0 -60px;
+	}
+	.neue-logos {
+		justify-content: center;
+		padding: 0px;
+		margin: 190px 0 0 0;
+		max-width: 100%;
+		width: 80%;
+		height: auto !important;
+		position: relative;
+	}
+	.arrows {
+		justify-content: center;
+		max-width: 100%;
+		width: 2rem;
+		padding: 90px 0 50px 0;
+		margin: -1px;
+	}
+	.sales {
+		justify-content: center;
+		width: 35%;
+		padding: 1%;
+		margin: ;
+	}
+	#wrap {
+		display: block;
+	}
+	.left_col, .right_col {
+		float: none;
+		width: 100%;
+	}
+	.sans, .geo {
+		max-width: 100%;
+		width: 85%;
+	}
+	.sell_low {
+		margin: 90px 0 75px 0;
+		max-width: 100%;
+		width: 90%;
+	}
+	.description {
+		margin: 10px 0 50px 0;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-weight: 0;
+		line-height: 20px;
+	}
+	.button {
+		background-color: #0033FF;
+		border: 5px solid #0033FF;
+		display: inline-block;
+		cursor: pointer;
+		padding: 10px;
+		text-decoration: none;
+		text-shadow: 0px 1px 0px #0f3fff;
+		margin: 0px 0 20px 0;
+		color: #ffffff;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+		font-size: 1rem;
+		font-kerning: 20rem;
+		max-width: 100%;
+		width: 50%;
+	}
+	#footer {
+		text-decoration: none;
+		color: #0033CC;
+	}
+	.main-footer {
+		padding: 20px 0 20px 0;
+		text-decoration: none;
+		font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        color: #0033FF;
+	}
+	.button a {
+		color: white;
+	}
+}
