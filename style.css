@@ -9,6 +9,7 @@ html {
 	overflow-x: hidden;
 	height: 100%;
 }
+
 body {
 	margin: 0px 0px;
 	overflow-x: hidden;
@@ -18,11 +19,11 @@ body {
 	width: 100%;
 }
 #hero {
-	background-image: url('http://res.cloudinary.com/dwdzmuw4g/image/upload/v1484746350/background_gtp4ot.png');
+	background-image: url('img/background.png');
 	background-size: cover;
 	position: relative;
 	background-position: 50% 30%;
-	height: 102vh;
+	height: 80vh;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -31,7 +32,9 @@ body {
 }
 
 .hero-content {
-	margin-top: 5%;
+	margin-top: 10%;
+	max-width: 1400px;
+	margin: 200px auto;
 }
 .header {
 	width: 100%;
@@ -96,7 +99,7 @@ body {
 }
 .sell_low {
 	margin:90px 0 75px 0;
-	max-width: 100%;
+	max-width: 1000px;
 	width:50%;
 }
 .description {
@@ -132,7 +135,7 @@ body {
 	text-decoration: none;
 	margin-bottom: 80px;
 }
-.main-footer, a:link, a:visited {
+.main-footer, a:link {
 	padding: 20px 0 20px 0;
 	text-decoration: none;
 	font-family: sans-serif;
@@ -154,7 +157,7 @@ body {
 		background-size: cover;
 		position: relative;
 		background-position: 45% 30%;
-		height: 102vh;
+		height: 50vh;
 		-webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
@@ -168,14 +171,17 @@ body {
 		flex-wrap: wrap;
 		margin-top: -30px;
 	}
+	.hero-content {
+		margin-top: 2%;
+	}
 	.sixoff {
 		width: 35%;
-		margin: 60px 0 -60px;
+		margin: 120px 0 -60px;
 	}
 	.neue-logos {
 		justify-content: center;
 		padding: 0px;
-		margin: 190px 0 0 0;
+		margin: 100px 0 0 0;
 		max-width: 100%;
 		width: 80%;
 		height: auto !important;
@@ -185,7 +191,7 @@ body {
 		justify-content: center;
 		max-width: 100%;
 		width: 2rem;
-		padding: 90px 0 50px 0;
+		padding: 30px 0 50px 0;
 		margin: -1px;
 	}
 	.sales {
@@ -245,4 +251,13 @@ body {
 	.button a {
 		color: white;
 	}
+}
+
+.pgp {
+	margin: 60px auto;
+}
+
+.pgp textarea {
+	width: 450px;
+	height: 800px;
 }
